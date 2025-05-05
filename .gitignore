@@ -1,7 +1,11 @@
-# ignore all files by default
+# ignore everything …
 *
-# except the scripts directory
+# … except the scripts directory …
 !/scripts/
-
-# keep the gitignore itself
+# … and everything inside it
+!/scripts/**
+# (and, of course, don’t ignore your .gitignore itself)
 !/.gitignore
+# allow our versioning files
+!/.bumpversion.cfg
+!/VERSION
