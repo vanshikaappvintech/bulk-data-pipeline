@@ -1,0 +1,7 @@
+# ignore all files by default
+*
+# except the scripts directory
+!/scripts/
+
+# keep the gitignore itself
+!/.gitignore
